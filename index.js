@@ -1,3 +1,4 @@
-exports.printMsg = function() {
-    console.log("This is my first npm");
-}
+export const printMsg = () => {
+    console.log("This is ES module");
+};
+//# sourceMappingURL=index.js.map
